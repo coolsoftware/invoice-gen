@@ -1,0 +1,140 @@
+body {
+  background-color: #e9ecef;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+:root {
+  --black: 
+rgba(0, 0, 0, 1);
+  --emerald: 
+rgba(25, 168, 130, 1);
+  --cornflower-blue: 
+rgba(99, 102, 241, 1);
+  --silver: 
+rgba(192, 192, 192, 1);
+  --wild-sand: 
+rgba(243, 244, 246, 1);
+  --black-haze: 
+rgba(246, 246, 246, 1);
+  --white: 
+rgba(255, 255, 255, 1);
+
+  --font-size-s: 12px;
+  --font-size-m: 14px;
+  --font-size-m2: 18px;
+
+  --font-family-roboto: "Roboto";
+  --font-family-roboto_mono: "Roboto Mono";
+}
+
+.roboto-normal-black-18px {
+  color: var(--black);
+  font-family: var(--font-family-roboto);
+  font-size: var(--font-size-m2);
+  font-weight: 400;
+  font-style: normal;
+}
+.roboto-normal-white-18px {
+  color: var(--white);
+  font-family: var(--font-family-roboto);
+  font-size: var(--font-size-m2);
+  font-weight: 400;
+  font-style: normal;
+}
+.border-1px-silver {
+  border-width: 1px;
+  border-style: solid;
+  border-color: var(--silver);
+}
+.roboto-bold-black-14px {
+  color: var(--black);
+  font-family: var(--font-family-roboto);
+  font-size: var(--font-size-m);
+  font-weight: 700;
+  font-style: normal;
+}
+.roboto-bold-white-18px {
+  color: var(--white);
+  font-family: var(--font-family-roboto);
+  font-size: var(--font-size-m2);
+  font-weight: 700;
+  font-style: normal;
+}
+.roboto-normal-black-14px {
+  color: var(--black);
+  font-family: var(--font-family-roboto);
+  font-size: var(--font-size-m);
+  font-weight: 400;
+  font-style: normal;
+}
+.roboto-normal-black-12px {
+  color: var(--black);
+  font-family: var(--font-family-roboto);
+  font-size: var(--font-size-s);
+  font-weight: 400;
+  font-style: normal;
+}
+
+img.button {
+  cursor:pointer;
+}
+
+div.button {
+  cursor:pointer;
+}
+
+img.button {
+  cursor:pointer;
+}
+
+.alert-danger {
+  color: #842029;
+  background-color: #f8d7da;
+  border-color: #f5c2c7;
+}
+
+.alert {
+  position: relative;
+  padding: 1rem 1rem;
+  margin-bottom: 1rem;
+  border: 1px solid transparent;
+  border-radius: 0.25rem;
+}

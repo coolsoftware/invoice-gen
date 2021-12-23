@@ -1,0 +1,327 @@
+.sba-frame-1 {
+    background-color: var(--white);
+    height: 489px;
+    mix-blend-mode: normal;
+    overflow: hidden;
+    overflow-x: hidden;
+    position: relative;
+    width: 456px;
+}
+  
+.sba-frame-1 .group-4-VxPVnb {
+    background-color: transparent;
+    height: 165px;
+    left: 43px;
+    position: absolute;
+    top: 58px;
+    width: 393px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+  
+.sba-frame-1 .group-4-VxPVnb-bottom {
+    background-color: transparent;
+    height: 165px;
+    left: 0px;
+    position: absolute;
+    top: 78px;
+    width: 373px;
+}
+  
+.sba-frame-1 .group-2-8yD7Zo {
+    background-color: transparent;
+    height: 74px;
+    left: 2px;
+    position: absolute;
+    top: 38px;
+    width: 374px;
+}
+  
+.sba-frame-1 .vector-dqbQN8 {
+    background-color: transparent;
+    height: 26px;
+    left: -1px;
+    mix-blend-mode: normal;
+    position: absolute;
+    top: -0px;
+    width: 28px;
+}
+  
+.sba-frame-1 .group-1-dqbQN8 {
+    background-color: transparent;
+    height: 40px;
+    left: 264px;
+    position: absolute;
+    top: 0px;
+    width: 106px;
+}
+  
+.sba-frame-1 .rectangle-1-21VLxy {
+    background-color: #19a882;
+    height: 40px;
+    left: 0px;
+    mix-blend-mode: normal;
+    position: absolute;
+    top: 0px;
+    width: 104px;
+}
+  
+.sba-frame-1 .select-21VLxy {
+    background-color: transparent;
+    color: var(--white);
+    font-family: var(--font-family-roboto);
+    font-size: var(--font-size-m);
+    font-style: normal;
+    font-weight: 700;
+    height: auto;
+    left: 31px;
+    letter-spacing: 0.00px;
+    line-height: normal;
+    mix-blend-mode: normal;
+    position: absolute;
+    text-align: left;
+    top: 12px;
+    width: 42px;
+}
+  
+.sba-frame-1 .bank-name-dqbQN8 {
+    background-color: transparent;
+    height: auto;
+    left: 51px;
+    letter-spacing: 0.00px;
+    line-height: normal;
+    mix-blend-mode: normal;
+    position: absolute;
+    text-align: left;
+    top: 1px;
+    width: 132px;
+}
+  
+.sba-frame-1 .account-name-dqbQN8 {
+    background-color: transparent;
+    height: auto;
+    left: 51px;
+    letter-spacing: 0.00px;
+    line-height: normal;
+    mix-blend-mode: normal;
+    position: absolute;
+    text-align: left;
+    top: 29px;
+    width: 115px;
+  }
+  
+.sba-frame-1 .account-number-dqbQN8 {
+    background-color: transparent;
+    height: auto;
+    left: 50px;
+    letter-spacing: 0.00px;
+    line-height: normal;
+    mix-blend-mode: normal;
+    position: absolute;
+    text-align: left;
+    top: 58px;
+    width: auto;
+}
+  
+.sba-frame-1 .please-select-bank-account-8yD7Zo {
+    background-color: transparent;
+    color: var(--black);
+    font-family: var(--font-family-roboto);
+    font-size: var(--font-size-l);
+    font-style: normal;
+    font-weight: 400;
+    height: auto;
+    left: 43px;
+    letter-spacing: 0.00px;
+    line-height: normal;
+    mix-blend-mode: normal;
+    position: absolute;
+    text-align: left;
+    top: 38px;
+    width: 281px;
+}
+  
+.sba-frame-1 .or-create-new-one-8yD7Zo {
+    background-color: transparent;
+    color: var(--black);
+    font-family: var(--font-family-roboto);
+    font-size: var(--font-size-l);
+    font-style: normal;
+    font-weight: 400;
+    height: auto;
+    left: 43px;
+    letter-spacing: 0.00px;
+    line-height: normal;
+    mix-blend-mode: normal;
+    position: absolute;
+    text-align: left;
+    top: 1px;
+    width: 207px;
+}
+  
+.sba-frame-1 .group-2-VxPVnb {
+    background-color: transparent;
+    height: 32px;
+    left: 43px;
+    position: absolute;
+    top: 41px;
+    width: 371px;
+}
+  
+.sba-frame-1 .rectangle-6-IHYDQL {
+    background-color: var(--white);
+    height: 32px;
+    left: 0px;
+    mix-blend-mode: normal;
+    position: absolute;
+    top: 0px;
+    width: 369px;
+}
+  
+.sba-frame-1 .bank-name-IHYDQL {
+    background-color: transparent;
+    border: 0;
+    height: 16px;
+    left: 16px;
+    letter-spacing: 0.00px;
+    line-height: normal;
+    mix-blend-mode: normal;
+    padding: 0;
+    position: absolute;
+    resize: none;
+    text-align: left;
+    top: 7px;
+    width: 339px;
+}
+  
+.sba-frame-1 .bank-name-IHYDQL::placeholder {
+    color: #00000099;
+}
+  
+.sba-frame-1 .group-5-VxPVnb {
+    background-color: transparent;
+    height: 32px;
+    left: 43px;
+    position: absolute;
+    top: 82px;
+    width: 371px;
+}
+  
+.sba-frame-1 .rectangle-7-OxrO5u {
+    background-color: var(--white);
+    height: 32px;
+    left: 0px;
+    mix-blend-mode: normal;
+    position: absolute;
+    top: 0px;
+    width: 369px;
+}
+  
+.sba-frame-1 .account-name-OxrO5u {
+    background-color: transparent;
+    border: 0;
+    height: 16px;
+    left: 16px;
+    letter-spacing: 0.00px;
+    line-height: normal;
+    mix-blend-mode: normal;
+    padding: 0;
+    position: absolute;
+    resize: none;
+    text-align: left;
+    top: 8px;
+    width: 339px;
+}
+  
+.sba-frame-1 .account-name-OxrO5u::placeholder {
+    color: #00000099;
+}
+  
+.sba-frame-1 .group-7-VxPVnb {
+    background-color: transparent;
+    height: 32px;
+    left: 43px;
+    position: absolute;
+    top: 123px;
+    width: 371px;
+}
+  
+.sba-frame-1 .rectangle-7-tEzywy {
+    background-color: var(--white);
+    height: 32px;
+    left: 0px;
+    mix-blend-mode: normal;
+    position: absolute;
+    top: 0px;
+    width: 369px;
+}
+  
+.sba-frame-1 .account-number-tEzywy {
+    background-color: transparent;
+    border: 0;
+    height: 16px;
+    left: 16px;
+    letter-spacing: 0.00px;
+    line-height: normal;
+    mix-blend-mode: normal;
+    padding: 0;
+    position: absolute;
+    resize: none;
+    text-align: left;
+    top: 8px;
+    width: 339px;
+}
+  
+.sba-frame-1 .account-number-tEzywy::placeholder {
+    color: #00000099;
+}
+  
+.sba-frame-1 .group-6-VxPVnb {
+    background-color: transparent;
+    height: 42px;
+    left: 144px;
+    position: absolute;
+    top: 183px;
+    width: 214px;
+}
+  
+.sba-frame-1 .rectangle-8-tqxTCL {
+    background-color: #19a882;
+    height: 42px;
+    left: 0px;
+    mix-blend-mode: normal;
+    position: absolute;
+    top: 0px;
+    width: 212px;
+}
+
+.sba-frame-1 .rectangle-8-tqxTCL.disabled {
+    background-color: var(--silver);
+}
+  
+.sba-frame-1 .create-account-tqxTCL {
+    background-color: transparent;
+    color: var(--white);
+    font-family: var(--font-family-roboto);
+    font-size: var(--font-size-l);
+    font-style: normal;
+    font-weight: 700;
+    height: auto;
+    left: 23px;
+    letter-spacing: 0.00px;
+    line-height: normal;
+    mix-blend-mode: normal;
+    position: absolute;
+    text-align: left;
+    top: 10px;
+    width: auto;
+}
+  
+.sba-frame-1 .line-1-VxPVnb {
+    background-color: transparent;
+    height: 1px;
+    left: 214px;
+    position: absolute;
+    top: 10px;
+    width: 198px;
+}
