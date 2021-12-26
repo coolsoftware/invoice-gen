@@ -12,13 +12,13 @@ function getAll() {
     return fetch(`${apiUrl}/bankaccounts`, requestOptions).then(handleResponse);
 }
 
-function create(bankAccount) {
+function create({ accountName, accountNumber, bankName, currency }) {
     const requestOptions = {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json', 
         },
-        body: JSON.stringify(bankAccount),
+        body: JSON.stringify({ accountName, accountNumber, bankName, currency }),
     };
     const {apiUrl} = Config.get();
     return fetch(`${apiUrl}/bankaccounts/create`, requestOptions).then(handleResponse);

@@ -223,19 +223,37 @@ export function InvoiceGen() {
                 <div className="ig-frame-1 screen " data-id="1:4">
                     <div className="frame-2-VxPVnb" data-id="1:37">
                         <div className="invoice-zqxklK" data-id="1:7">INVOICE</div>
-                        <InvoiceDetails number={invoiceNumber} date={invoiceDate} />
-                        <SenderDetails name={senderName} inn={senderINN} edit={openSenderModal} />
-                        <RecipientDetails name={recipientName} inn={recipientINN} edit={openRecipientModal} />
-                        <BankAccountDetails bankName={bankName} accountName={accountName} accountNumber={accountNumber} edit={openBankAccountModal} />
+                        <InvoiceDetails 
+                            number={invoiceNumber} 
+                            date={invoiceDate} />
+                        <SenderDetails 
+                            name={senderName} 
+                            inn={senderINN} 
+                            edit={openSenderModal} />
+                        <RecipientDetails 
+                            name={recipientName} 
+                            inn={recipientINN} 
+                            edit={openRecipientModal} />
+                        <BankAccountDetails 
+                            bankName={bankName} 
+                            accountName={accountName} 
+                            accountNumber={accountNumber} 
+                            edit={openBankAccountModal} />
                         <div className="group-13-zqxklK" data-id="8:79">
                             <InvoiceItemsHeader />
-                            <InvoiceItemList items={invoiceItems} remove={removeItem} />
-                            <NewItemEditor items={invoiceItems} add={addItem} />
+                            <InvoiceItemList 
+                                items={invoiceItems} 
+                                remove={removeItem} />
+                            <NewItemEditor 
+                                items={invoiceItems} 
+                                add={addItem} />
                         </div>
                         <InvoiceSummary items={invoiceItems} />
                     </div>
                     <div className="group-17-VxPVnb" data-id="10:85">
-                        <SaveInvoiceButton onClick={saveInvoice} enabled = {createInvoiceEnabled} />
+                        <SaveInvoiceButton 
+                            onClick={saveInvoice} 
+                            enabled = {createInvoiceEnabled} />
                         <ViewInvoicesButton />
                     </div>
                 </div>

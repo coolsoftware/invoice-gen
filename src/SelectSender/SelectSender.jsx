@@ -10,6 +10,7 @@ export function SelectSender({onSelect}) {
         name: '',
         inn: '',
     });
+    const [error, setError] = useState();
 
     const onSenderFieldChange = (e) => {
         setSenderFields({
@@ -23,6 +24,7 @@ export function SelectSender({onSelect}) {
     }, []);
 
     const loadDefaultSender = () => {
+        setError();
         return senderService.getDefault().then(
             ({_id, ...sender}) => {
                 setSenderId(_id);
@@ -30,7 +32,8 @@ export function SelectSender({onSelect}) {
                     ...senderFields,
                     ...sender
                 });
-            }
+            },
+            error => setError(typeof error === 'string' ? error : error.toString())
         );
     }
 
@@ -38,14 +41,18 @@ export function SelectSender({onSelect}) {
         if (!senderFields.name || !senderFields.inn) {
             return;
         }
-        senderService.save(senderId, senderFields).then(() => {
-            loadDefaultSender().then(() => {
-                if (onSelect) onSelect({
-                    _id: senderId,
-                    ...senderFields
+        setError();
+        senderService.save(senderId, senderFields).then(
+            () => {
+                loadDefaultSender().then(() => {
+                    if (onSelect) onSelect({
+                        _id: senderId,
+                        ...senderFields
+                    });
                 });
-            });
-        });
+            },
+            error => setError(typeof error === 'string' ? error : error.toString())
+        );
     }
 
     const saveEnabled = senderFields.name && senderFields.inn;
@@ -77,6 +84,9 @@ export function SelectSender({onSelect}) {
                     <div className="save-MQwLM3" data-id="1:14">Save</div>
                 </div>
             </div>
+            {error && 
+                <div className="alert alert-danger">{error}</div>
+            }
         </div>
     );
 }

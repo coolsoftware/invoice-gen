@@ -20,13 +20,17 @@ function newInvoice() {
     return fetch(`${apiUrl}/invoices/new`, requestOptions).then(handleResponse);
 }
 
-function createInvoice(invoice) {
+function createInvoice({ number, date, items, total, sender, recipient, bankAccount }) {
     const requestOptions = { 
         method: 'POST',
         headers: {
             'Content-Type': 'application/json', 
         },
-        body: JSON.stringify(invoice),
+        body: JSON.stringify({ number, date, items, total, 
+            sender: { _id: sender._id }, 
+            recipient: { _id: recipient._id }, 
+            bankAccount: { _id: bankAccount._id }
+        }),
     };
     const {apiUrl} = Config.get();
     return fetch(`${apiUrl}/invoices/create`, requestOptions).then(handleResponse);

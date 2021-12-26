@@ -48,7 +48,7 @@ export function SelectRecipient({onSelect}) {
 
     const loadRecipients = () => {
         setError();
-        recipientService.getAll().then(
+        return recipientService.getAll().then(
             recipients => {
                 setRecipients(recipients);
             },

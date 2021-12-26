@@ -53,6 +53,7 @@ export function InvoiceList() {
     const [invoiceList, setInvoiceList] = useState([]);
     const [error, setError] = useState(null);
     const [modalState, setModalState] = useState();
+    const [viewInvoice, setViewInvoice] = useState();
 
     useEffect(() => {
         setError();
@@ -78,7 +79,8 @@ export function InvoiceList() {
         )
     }
 
-    const showPDF = (id) => {
+    const showPDF = (invoice) => {
+        setViewInvoice(invoice);
         setModalState('view-pdf');
     }
 
@@ -158,7 +160,7 @@ export function InvoiceList() {
                                         total={invoice.total}
                                         paid={invoice.paid}
                                         setPaid={() => setPaid(invoice._id)}
-                                        showPDF={() => downloadPDF(invoice)}
+                                        showPDF={() => showPDF(invoice)}
                                     />
                                 );
                             })
@@ -173,6 +175,7 @@ export function InvoiceList() {
                     onRequestClose={closeModal}
                     style={modalStyles}
                 >
+                    <InvoicePDF invoice={viewInvoice} />
                 </Modal>
             </div>
         </>

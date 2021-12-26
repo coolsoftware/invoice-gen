@@ -71,18 +71,27 @@ export function InvoicePDF({invoice}) {
 
     return (
         <div className="ipdf-frame-1 screen " data-id="1:4">
-            <div className="frame-2-VxPVnb" data-id="1:37">
+            {false /* <div className="frame-2-VxPVnb" data-id="1:37"> */}
                 <div className="invoice-zqxklK" data-id="1:7">INVOICE</div>
-                <InvoiceDetails number={invoiceNumber} date={invoiceDate} />
-                <SenderDetails name={senderName} inn={senderINN} />
-                <RecipientDetails name={recipientName} inn={recipientINN} />
-                <BankAccountDetails bankName={bankName} accountName={accountName} accountNumber={accountNumber} />
+                <InvoiceDetails 
+                    number={invoiceNumber} 
+                    date={invoiceDate} />
+                <SenderDetails 
+                    name={senderName} 
+                    inn={senderINN} />
+                <RecipientDetails 
+                    name={recipientName} 
+                    inn={recipientINN} />
+                <BankAccountDetails 
+                    bankName={bankName} 
+                    accountName={accountName} 
+                    accountNumber={accountNumber} />
                 <div className="group-13-zqxklK" data-id="8:79">
                     <InvoiceItemsHeader />
                     <InvoiceItemList items={invoice.items} />
                 </div>
                 <InvoiceSummary items={invoice.items} />
-            </div>
+            {false /* </div> */}
         </div>
     );
 }

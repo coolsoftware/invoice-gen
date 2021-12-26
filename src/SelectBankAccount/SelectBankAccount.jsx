@@ -51,7 +51,7 @@ export function SelectBankAccount({onSelect}) {
 
     const loadBankAccounts = () => {
         setError();
-        bankAccountService.getAll().then(
+        return bankAccountService.getAll().then(
             bankAccounts => {
                 setBankAccounts(bankAccounts);
             }, 

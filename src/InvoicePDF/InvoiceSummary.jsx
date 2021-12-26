@@ -8,7 +8,7 @@ export function InvoiceSummary({items}) {
             </div>
             <div className="group-4-XBjSx2" data-id="3:62">
                 <img className="line-1-OXJk8v" data-id="1:36" src="/resources/invoice_gen/line-1@2x.svg" />
-                <div className="total-OXJk8v roboto-normal-black-14px" data-id="1:38">Total (USD):</div>
+                <div className="total-OXJk8v roboto-normal-black-14px" data-id="1:38">Total:</div>
                 <div className="x30-OXJk8v" data-id="1:40">{
                     items.reduce((prev, cur) => prev+(cur.qty*cur.rate), 0)
                 }</div>

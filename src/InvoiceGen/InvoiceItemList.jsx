@@ -31,8 +31,8 @@ export function InvoiceItemsHeader() {
             <div className="rectangle-1-Pua9Ri" data-id="1:26"></div>
             <div className="item-Pua9Ri roboto-normal-black-14px" data-id="1:27">Item</div>
             <div className="qty-Pua9Ri roboto-normal-black-14px" data-id="1:28">QTY</div>
-            <div className="rate-usd-Pua9Ri roboto-normal-black-14px" data-id="1:29">Rate (USD)</div>
-            <div className="subtotal-usd-Pua9Ri roboto-normal-black-14px" data-id="1:30">Subtotal (USD)</div>
+            <div className="rate-usd-Pua9Ri roboto-normal-black-14px" data-id="1:29">Rate</div>
+            <div className="subtotal-usd-Pua9Ri roboto-normal-black-14px" data-id="1:30">Subtotal</div>
         </div>
     );
 }
